@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payton Serraglio - Bucket List</title>
+    <style>
+        /* Simple, inline CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2a6fdb; /* A nice blue color for a fresh look */
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin: 0.25rem 0 0 0;
+            font-size: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #2a6fdb; /* Match the header color */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            color: #2a6fdb;
+        }
+
+        /* Styling for the bucket list items */
+        .bucket-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bucket-list li {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #ccc;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .bucket-list li:hover {
+            border-left: 5px solid #2a6fdb; /* Highlight on hover */
+            background-color: #f0f4fb;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #333;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Orange for in-progress */
+        .item-status {
+            font-style: italic;
+            color: #ff9800; 
+            font-size: 0.9rem;
+        }
+
+        /* Green for completed */
+        .item-status.completed {
+            color: #4CAF50;
+            text-decoration: line-through;
+        }
+
+        /* Default status for items yet to be started */
+        .item-status.todo {
+            color: #777; 
+            font-style: normal;
+        }
+
+        a {
+            color: #2a6fdb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Payton Serraglio's Bucket List 🌎</h1>
+      <p>Adventures, challenges, and goals for a life well-lived!</p>
+    </header>
+
+    <main>
+
+      <section id="adventure">
+        <h2>Adventures 🗺️</h2>
+        <ul class="bucket-list">
+          
+          <li>
+            <span class="item-title">Go Skydiving</span>
+            <span class="item-status todo">Status: To Do (The rush was incredible!)</span>
+          </li>
+          
+          <li>
+            <span class="item-title">Travel to Europe</span>
+            <span class="item-status todo">Status: To Do (A perfect trip through three countries)</span>
+          </li>
+          
+          <li>
+            <span class="item-title">Go on a Backpacking Trip</span>
+            <span class="item-status completed">Status: Completed! (Spent a week hiking the Appalachian Trail)</span>
+          </li>
+
+          <li>
+            <span class="item-title">Learn How to Surf</span>
+            <span class="item-status completed">Status: Completed! (Managed to stand up on the first day)</span>
+          </li>
+          
+          <li>
+            <span class="item-title">Visit the Great Barrier Reef (Scuba Diving)</span>
+            <span class="item-status todo">Status: To Do</span>
+          </li>
+          
+        </ul>
+      </section>
+
+      ---
+      
+      <section id="personal">
+        <h2>Skills & Personal Development 💡</h2>
+        <ul class="bucket-list">
+            
+          <li>
+            <span class="item-title">Learn how to bake a cake</span>
+            <span class="item-status">Status: In Progress </span>
+          </li>
+          
+          <li>
+            <span class="item-title">Code a Full-Stack Application from Scratch</span>
+            <span class="item-status todo">Status: To Do</span>
+          </li>
+          
+          <li>
+            <span class="item-title">Read 10 ENTIRE Books in a Year</span>
+            <span class="item-status">Status: In Progress </span>
+          </li>
+          
+          <li>
+            <span class="item-title">Complete a Mindfullness Task Everyday</span>
+            <span class="item-status todo">Status: To Do</span>
+          </li>
+          
+        </ul>
+      </section>
+
+    </main>
+  </body>
+</html>
